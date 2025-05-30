@@ -1,0 +1,27 @@
+:root{
+    --xxs: 2px;
+    --xs: 4px;
+    --sm: 8px;
+    --md: 16px;
+    --lg: 24px;
+    --xl: 32px;
+    --xxl: 40px;
+    --xxxl: 64px;
+}
+
+p {
+    margin: 0px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    column-gap: var(--lg);
+}
+
